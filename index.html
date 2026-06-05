@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cursos y mentorías para impulsar tu carrera | SkillBridge</title>
+    <meta name="description"
+        content="SkillBridge conecta estudiantes y jóvenes profesionales con cursos cortos y mentorías para mejorar sus oportunidades laborales." />
+    <meta name="keywords" content="cursos online, mentorías, empleabilidad, formación profesional, skillbridge" />
+    <meta name="author" content="Richard Parra Zegarra" />
+
+    <meta property="og:title" content="SkillBridge - Cursos y mentorías para impulsar tu carrera" />
+    <meta property="og:description"
+        content="Plataforma de cursos cortos y mentorías para estudiantes y jóvenes profesionales." />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container nav">
+            <div class="logo">SkillBridge</div>
+            <nav>
+                <a href="#beneficios">Beneficios</a>
+                <a href="#cursos">Cursos</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#registro">Registro</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <p class="tag">Aprende hoy, trabaja mejor mañana</p>
+                    <h1>Impulsa tu carrera con cursos cortos y mentorías</h1>
+                    <p>
+                        SkillBridge ayuda a estudiantes y jóvenes profesionales a fortalecer habilidades,
+                        mejorar su perfil y acercarse al mercado laboral con formación práctica.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#registro" class="btn btn-primary">Quiero registrarme</a>
+                        <a href="#cursos" class="btn btn-secondary">Ver cursos</a>
+                    </div>
+                </div>
+
+                <div class="hero-panel">
+                    <h3>¿Qué ofrece SkillBridge?</h3>
+                    <ul>
+                        <li>Cursos cortos con enfoque práctico</li>
+                        <li>Mentorías personalizadas</li>
+                        <li>Orientación para empleabilidad</li>
+                        <li>Aprendizaje flexible y digital</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="section">
+            <div class="container">
+                <h2 class="section-title">Beneficios principales</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Aprendizaje práctico</h3>
+                        <p>Contenido enfocado en habilidades útiles para el trabajo y el desarrollo profesional.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Mentoría guiada</h3>
+                        <p>Acompañamiento de personas con experiencia para orientar tu crecimiento.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Mayor empleabilidad</h3>
+                        <p>Mejora tu perfil con conocimientos y apoyo enfocados en oportunidades reales.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="cursos" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Cursos destacados</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Excel para negocios</h3>
+                        <p>Aprende herramientas prácticas para análisis y organización de datos.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Diseño de CV profesional</h3>
+                        <p>Construye un currículum más claro, atractivo y orientado al mercado laboral.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Comunicación efectiva</h3>
+                        <p>Fortalece tus habilidades para entrevistas, presentaciones y trabajo en equipo.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonios" class="section">
+            <div class="container">
+                <h2 class="section-title">Testimonios</h2>
+                <div class="cards">
+                    <article class="card">
+                        <p>"Gracias a SkillBridge pude mejorar mi CV y sentirme más preparado para postular."</p>
+                        <h4>- Ana, estudiante universitaria</h4>
+                    </article>
+                    <article class="card">
+                        <p>"Las mentorías me ayudaron a ordenar mis objetivos y entender mejor el mercado laboral."</p>
+                        <h4>- Luis, egresado</h4>
+                    </article>
+                    <article class="card">
+                        <p>"Los cursos son claros, prácticos y me dieron confianza para avanzar profesionalmente."</p>
+                        <h4>- Carla, joven profesional</h4>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="registro" class="section section-alt">
+            <div class="container register-grid">
+                <div>
+                    <h2 class="section-title">Regístrate gratis</h2>
+                    <p class="muted">
+                        Déjanos tus datos para acceder a información, cursos y mentorías disponibles.
+                    </p>
+
+                    <div class="counter-box">
+                        <h3>Registros captados</h3>
+                        <p id="registerCount">0</p>
+                    </div>
+                </div>
+
+                <form id="registerForm" class="form-box">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" required />
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" required />
+
+                    <label for="interes">Área de interés</label>
+                    <select id="interes" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="empleabilidad">Empleabilidad</option>
+                        <option value="excel">Excel</option>
+                        <option value="cv">CV profesional</option>
+                        <option value="comunicacion">Comunicación</option>
+                    </select>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="4" placeholder="Escribe tus intereses..."></textarea>
+
+                    <button type="submit" class="btn btn-primary full">Enviar registro</button>
+                    <p id="formMessage" class="form-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>SkillBridge © 2026 | Landing page demostrativa</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
